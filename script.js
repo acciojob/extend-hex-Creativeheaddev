@@ -7,7 +7,7 @@ while (i<=shortHex.length){
 		if (asciiCode<=65 && asciiCode >=90){
 			isCapital=true;
 		}
-	output+= shortHex[i]+shortHex[i];
+	output+= output + shortHex[i] + shortHex[i]  ;
 	i++;
 }
 	return is Capital ? output.toUpperCase() : output ;
